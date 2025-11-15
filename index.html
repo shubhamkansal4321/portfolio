@@ -1,109 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src *">
-    <title>Portfolio - Shubham Kansal</title>
-    <meta name="description" content="Explore my experience as a web devloper">
-    <link rel="icon" href="https://em-content.zobj.net/thumbs/120/apple/354/technologist-light-skin-tone_1f9d1-1f3fb-200d-1f4bb.png">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- Basic security and images allowed from anywhere (keep if needed) -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src * data:">
+  <title>Shubham Kansal — Portfolio</title>
+
+  <!-- SEO / social -->
+  <meta name="description" content="Shubham Kansal — B.Tech CSE student, Web Developer, ML & OCR intern. Worked on OCR automation at DRDO." />
+  <meta property="og:title" content="Shubham Kansal — Portfolio" />
+  <meta property="og:description" content="CSE student with hands-on experience in ML, OCR systems, and full-stack development." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="https://em-content.zobj.net/thumbs/120/apple/354/technologist-light-skin-tone_1f9d1-1f3fb-200d-1f4bb.png" />
+
+  <!-- Put your stylesheet here -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
     <nav>
-        <ul class="nav-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-me">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#stack">Stack</a></li>
-            <li><a href="#studies">Studies</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <ul class="nav-menu" role="navigation" aria-label="Main navigation">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-me">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#studies">Studies</a></li>
+        <li><a href="#volunteering">Volunteering</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-    
-    <div class="content">
-        <section id="home">
-            <div class="presentation">
-                <img class="picture" src="shubham.jpg" alt="Profile Picture">
-                <div class="greeting">
-                    <h1>Shubham Kansal</h1>
-                    <h2>Web developer</h2>
-                </div>
-            </div>
-        </section>
 
-        <section id="about-me">
-            <h3>🙋🏻‍♂️ About Me</h3>
-            <p>I’m Shubham Kansal, a creative web designer passionate about building innovative digital experiences. With a focus on clean design, intuitive user experiences, and the latest web technologies, I help brands and businesses transform their online presence.</p>
-            <p>I am a BTech Computer Science student at SRM University (2023-2027 batch). With a strong passion for web development, I aim to build efficient, visually appealing, and user-friendly web solutions. My journey so far has been enriched with hands-on experience in coding and problem-solving, which has fueled my curiosity to learn and innovate further in the tech domain.</p>
-        </section>
+    <section id="home" class="hero" aria-label="Hero">
+      <div class="presentation">
+        <img class="picture" src="shubham.jpg" alt="Shubham Kansal — profile photo" width="160" height="160" />
+        <div class="greeting">
+          <h1>Shubham Kansal</h1>
+          <p class="role">B.Tech CSE · Web Developer · ML & OCR Intern</p>
+          <p class="lead">CSE student with hands-on experience in Machine Learning, OCR systems, and Full-Stack Development. Worked on OCR automation at DRDO and building scalable ML pipelines.</p>
 
+          <!-- Contact mini + resume download -->
+          <div class="hero-ctas">
+            <!-- Place your resume PDF at /assets/Shubham_Kansal_Resume.pdf or update href accordingly -->
+            <a class="btn" href="/assets/Shubham_Kansal_Resume.pdf" download>Download Resume (PDF)</a>
+            <a class="btn-outline" href="#projects">See Projects</a>
+          </div>
 
-
-        <section id="projects">
-            <h3>⭐ Self-Taught Projects</h3>
-            <a href="https://code-breakers-storytelling-website.vercel.app/" target="_blank">
-                <div class="card">
-                    <h5>A Storytelling website named "Dreamweaver"</h5>
-                </div>
-            </a>
-            <a href="https://personal-blog-ivory-beta.vercel.app/" target="_blank">
-                <div class="card">
-                    <h5>My personal blog</h5>
-                </div>
-            </a>
-
-        </section>
-
-        <section id="stack">
-            <h3>💻 Technologies</h3>
-            <h4>Languages</h4>
-            <ul>
-                <li>Java</li>
-                <li>JavaScript</li>
-                <li>HTML & CSS</li>
-            </ul>
-            <h4>Frameworks</h4>
-            <ul>
-
-                <li>Frontend: ReactJs (Basic)</li>
-            </ul>
-            <h4>Databases</h4>
-            <ul>
-                <li>Relational: MySQL</li>
-            </ul>
-        </section>
-
-        <section id="studies">
-            <h3>📚 Academic Background</h3>
-            <div class="card">
-                <p>july 2023 - Present</p>
-                <img src="srm.jpg" alt="srm" class="wide">
-                <h5>SRM university</h5>
-                <p>Bachelor of Technology (B.Tech) in Computer Science and Engineering (Core)</p>
-            </div>
-            <div class="card">
-                <p>july 2011 - march 2023</p>
-                <img src="mjkps.jpg" alt="mjkps" class="wide">
-                <h5>MJKPS</h5>
-                <p>class 1st-12th school</p>
-            </div>
+          <p class="contact-mini">
+            <!-- Use mailto and tel so they open correctly -->
+            <a href="mailto:shubhamkansal4321@gmail.com">shubhamkansal4321@gmail.com</a> ·
+            <a href="tel:+918595470324">+91 85954 70324</a>
+          </p>
         </div>
- 
+      </div>
+    </section>
+  </header>
 
-        </section>
+  <main class="content" id="main">
+    <!-- About -->
+    <section id="about-me" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>I'm Shubham Kansal — a creative web developer and B.Tech CSE student at SRM University (2023–2027) focused on building efficient, visually appealing, and user-friendly web and ML solutions. I enjoy solving real problems (OCR, pipelines, cloud apps) and learning new tools.</p>
+      <p>Resume summary: <em>CSE student with hands-on experience in Machine Learning, OCR systems, and Full-Stack Development. Worked on OCR automation at DRDO and scheduled for an AAI internship.</em></p>
+    </section>
 
-        <section id="contact">
-            <h3>💌 Contact</h3>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/shubham-kansal-8a26611b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/Aceistaken6" target="_blank">Github</a></li>
-                <li><a href="https://kansalshubham2006@gmail.com" target="_blank">Gmail</a></li>
-                <li><a href="" target="_blank"></a></li>
-            </ul>
-        </section>
-    </div>
-    <footer>Shubham Kansal - Portfolio 2025</footer>
+    <!-- Experience - added from resume -->
+    <section id="experience" aria-labelledby="exp-heading">
+      <h2 id="exp-heading">Experience</h2>
+
+      <article class="job card">
+        <h3>Research Intern — Defence Research and Development Organisation (DRDO)</h3>
+        <p class="meta">Dec 2024 — Jan 2025</p>
+        <ul>
+          <!-- Exact resume bullets used (source: resume). -->
+          <li>Developed OCR pipeline using Tesseract, OpenCV, AWS Textract, and Google Vision, improving extraction accuracy by <strong>32%</strong> on noisy defence documents.</li>
+          <li>Implemented image preprocessing (thresholding, contour detection, noise removal), reducing false detections by <strong>40%</strong>.</li>
+          <li>Built evaluation scripts to benchmark OCR tools across <strong>500+ scanned documents</strong> for defence digitization workflows.</li>
+        </ul>
+      </article>
+
+      <!-- Placeholder for AAI internship once it begins; remove if not applicable -->
+      <article class="job card">
+        <h3>AAI Internship (Scheduled)</h3>
+        <p class="meta">Scheduled — (details on resume)</p>
+        <p>Details available on resume.</p>
+      </article>
+    </section>
+
+    <!-- Projects (expanded with resume projects) -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+
+      <div class="project-grid">
+        <article class="project-card card">
+          <h3>OCR Evaluation Toolkit (DRDO)</h3>
+          <p><strong>Tech:</strong> Python · OpenCV · Tesseract</p>
+          <p>Automated benchmarking of OCR accuracy, speed, and preprocessing impact (used for the DRDO OCR pipeline evaluation).</p>
+        </article>
+
+        <article class="project-card card">
+          <h3>Attendance Management System</h3>
+          <p><strong>Tech:</strong> HTML · CSS · JavaScript · Firebase</p>
+          <p>Real-time attendance tracking with Firebase Authentication and Firestore. Dashboard analytics and scalable cloud-based data storage.</p>
+        </article>
+
+        <!-- Keep your live project links -->
+        <article class="project-card card">
+          <h3>Dreamweaver — Storytelling website</h3>
+          <p><a href="https://code-breakers-storytelling-website.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo</a> · <em>React / Vercel</em></p>
+        </article>
+
+        <article class="project-card card">
+          <h3>Personal Blog</h3>
+          <p><a href="https://personal-blog-ivory-beta.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo</a> · <em>Blog / personal writing</em></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills / Stack -->
+    <section id="stack" aria-labelledby="stack-heading">
+      <h2 id="stack-heading">Technical Skills</h2>
+
+      <div class="skill-grid">
+        <div class="skill-group">
+          <h4>Programming</h4>
+          <p>Python · C++ · JavaScript · Java · SQL · Bash</p>
+        </div>
+
+        <div class="skill-group">
+          <h4>Web & Backend</h4>
+          <p>React · Node.js · Express · REST APIs · Firebase · Vercel</p>
+        </div>
+
+        <div class="skill-group">
+          <h4>Machine Learning / OCR</h4>
+          <p>OpenCV · Tesseract · AWS Textract · Google Vision API · NumPy · Pandas</p>
+        </div>
+
+        <div class="skill-group">
+          <h4>Tools & Databases</h4>
+          <p>Git · Docker · Linux · MongoDB · PostgreSQL · CI/CD</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Studies / Education -->
+    <section id="studies" aria-labelledby="studies-heading">
+      <h2 id="studies-heading">Education</h2>
+      <div class="card">
+        <h3>SRM University — B.Tech, Computer Science & Engineering (Core)</h3>
+        <p>July 2023 — Present</p>
+        <p><strong>CGPA:</strong> 8.35</p>
+      </div>
+
+      <div class="card">
+        <h3>MJKPS — School (1st–12th)</h3>
+        <p>July 2011 — March 2023</p>
+      </div>
+    </section>
+
+    <!-- Volunteering -->
+    <section id="volunteering" aria-labelledby="vol-heading">
+      <h2 id="vol-heading">Volunteering</h2>
+      <ul>
+        <li>Gift A Smile Foundation (March 2025) — Taught children, created learning material, assisted in educational programs.</li>
+        <li>Swasti Dass Sewa Sansthan (June–Aug 2025) — Tree plantation, cleanliness drives, community awareness campaigns.</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>Email: <a href="mailto:shubhamkansal4321@gmail.com">shubhamkansal4321@gmail.com</a></p>
+      <p>Phone: <a href="tel:+918595470324">+91 85954 70324</a></p>
+      <p>
+        <a href="https://github.com/shubhamkansal4321" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/shubham-kansal-8a26611b1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+
+      <!-- Simple contact form (optional; needs backend or service) -->
+      <form class="contact-form" action="/api/contact" method="post" aria-label="Contact form">
+        <label>
+          <span class="sr-only">Your name</span>
+          <input name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          <span class="sr-only">Email</span>
+          <input name="email" type="email" placeholder="Your email" required />
+        </label>
+        <label>
+          <span class="sr-only">Message</span>
+          <textarea name="message" placeholder="Message" required></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Shubham Kansal — Portfolio 2025</p>
+  </footer>
 </body>
 </html>
+
+
