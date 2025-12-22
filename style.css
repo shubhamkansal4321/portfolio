@@ -144,6 +144,12 @@ section li a{
   background-color: white;
   
 }
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
 
 .card .wide{
   height: 4vw;
@@ -336,4 +342,5 @@ footer{
   }
 
 }
+
 
