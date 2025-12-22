@@ -140,7 +140,7 @@ section li a{
   flex-direction: column;
   justify-content: center;
   padding: 1vw 2vw 1vw 4vw;
-  box-shadow: 10px 10px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
   background-color: white;
   
 }
@@ -342,5 +342,6 @@ footer{
   }
 
 }
+
 
 
