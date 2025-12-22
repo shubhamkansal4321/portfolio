@@ -31,19 +31,19 @@ body {
 }
 
 .content{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+section{
+  min-height: 100vh;   
   display: flex;
   flex-direction: column;
-  margin-left: 15%;
-  margin-right: 35%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 4rem;
 }
 
-section{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:flex-start;
-}
 
 section h3{
   padding-bottom: 0.5em;
@@ -159,7 +159,7 @@ section li a{
 }
 
 .card p{
-  font-size: 1vw;
+  font-size: 1rem;
 }
 
 footer{
@@ -342,6 +342,7 @@ footer{
   }
 
 }
+
 
 
 
