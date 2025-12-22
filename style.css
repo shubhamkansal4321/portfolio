@@ -33,7 +33,7 @@ body {
 .content {
   max-width: 900px;
   margin-left: 10%;
-  margin-right: 30%;
+  margin-right: 40%;
 }
 section{
   min-height: 100vh;   
@@ -361,6 +361,12 @@ section {
   width: 100%;
   box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
+nav ul li {
+  padding: 0.5em 0;
+}
+
+
+
 
 
 
