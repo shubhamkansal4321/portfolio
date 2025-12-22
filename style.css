@@ -42,6 +42,11 @@ section{
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 4rem;
+  padding-bottom: 6rem;
+}
+#home {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
 }
 
 
@@ -52,9 +57,9 @@ section h3{
 img{
   pointer-events: none;
 }
-
-.picture{
-  height: 30vw;
+.picture {
+  max-height: 420px;
+  width: auto;
 }
 
 nav{
@@ -356,6 +361,7 @@ section {
   width: 100%;
   box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
+
 
 
 
