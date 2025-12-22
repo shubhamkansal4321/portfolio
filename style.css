@@ -30,10 +30,10 @@ body {
    }
 }
 
-.content{
+.content {
   max-width: 900px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
+  margin-left: 10%;
+  margin-right: 30%;
 }
 section{
   min-height: 100vh;   
@@ -361,6 +361,7 @@ section {
   width: 100%;
   box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
+
 
 
 
